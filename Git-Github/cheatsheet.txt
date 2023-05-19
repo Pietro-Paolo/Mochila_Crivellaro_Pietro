@@ -1,0 +1,19 @@
+git config –global user.name “[name]”           -> Usado para configurar el nombre de manera global 
+git config –global user.email “[email address]” -> Usado para configurar el mail de manera global
+git init                                        -> Este comando es para iniciar un nuevo repositorio local
+git clone [url]                                 -> Este comando es usado para clonar un repositorio existente remoto a nivel local
+Usage: git add [file]                           -> Agrega al archivo al staging area
+Usage: git add *                                -> Agregar 1 o varios archivos al staging area
+git commit -m “[ Type in the commit message]”   -> Guarda de manera permanente los archivos en la version history
+git diff [first branch] [second branch]         -> Muestra las diferencias entre dos ramas existentes
+git reset                                       -> Utilizado para resetear cambios has el ultimo commit que fue hecho
+git status                                      -> Muestra los archivos que deben ser commiteados
+git log                                         -> Muestra el historico para la rama actual
+git branch                                      -> Muesta las ramas del repo local
+git branch [branch name]                        -> Crea una nueva rama
+git branch -d [branch name]                     -> Elimina la rama 
+git checkout [branch name]                      -> Cambia de rama
+git checkout -b [branch name]                   -> Crea y cambia de rama
+git merge                                       -> Utilizado para unir dos ramas
+git push [variable name] main                   -> Envia los commits al repo remoto
+git pull                                        -> Actualiza el repo con lo que esta en la rama remota
